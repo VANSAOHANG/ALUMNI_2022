@@ -23,5 +23,10 @@ class DatabaseSeeder extends Seeder
             'password' => 'admIn123',
             'role' => 'admin',
         ]);
+        \App\Models\Company::create([
+            'name' => 'name',
+            'email' => 'vansao@gmail.com',
+            'address' => 'address',
+        ]);
     }
 }
