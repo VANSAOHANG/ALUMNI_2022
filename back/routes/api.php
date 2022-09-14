@@ -51,6 +51,7 @@ Route:: put ("alumniSkill", [AlumniSkillController::class, "update"]);
 
 // =================================================================Get
 
+Route::get('user',[UserController::class, "index"]);
 Route::get('alumni/{id}',[UserController::class, "showAlumni"]);
 Route::get('workexperience',[WorkexperienceController::class,"index"]);
 Route::get('workexperience/{id}',[WorkexperienceController::class,"show"]);
